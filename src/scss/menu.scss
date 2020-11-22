@@ -1,0 +1,32 @@
+.menu {
+  display: flex;
+  align-items: center;
+  height: 0.875rem;
+  margin-left: 1.5rem;
+  position: relative;
+  width: 1.5rem;
+
+  &__bar {
+    background-color: var(--white);
+    display: block;
+    height: 0.125rem;
+    width: 1rem;
+
+    &::before,
+    &::after {
+      background-color: var(--white);
+      content: '';
+      height: 0.125rem;
+      position: absolute;
+      width: 1.5rem;
+    }
+
+    &::before {
+      top: 0;
+    }
+
+    &::after {
+      bottom: 0;
+    }
+  }
+}
