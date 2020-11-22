@@ -1,21 +1,32 @@
 .header {
   background-image: url('../images/pexels-cliford-mervil-2469122.jpg');
   background-size: cover;
+  display: flex;
   height: 13rem;
-  padding-top: 1.5rem;
-  position: relative;
   width: 100%;
+
+  &__left-side {
+    position: relative;
+    width: 13.375rem;
+  }
+
+  &__right-side {
+    width: 9.125rem;
+    background-color: rgba(0, 0, 0, 0.2);
+  }
 
   &__title {
     color: var(--white);
     font-size: 2rem;
     font-weight: 300;
-    margin-left: 1.5rem;
+    line-height: 2rem;
+    margin: 2rem 0 2.5rem 1.5rem;
     width: 8rem;
   }
 
   &__date {
     color: var(--gray1);
+    display: block;
     font-size: 0.75rem;
     margin-left: 1.5rem;
   }
@@ -23,7 +34,7 @@
   &__bottom-bar {
     background-color: var(--blue1);
     height: 0.25rem;
-    width: 13.5rem;
+    width: 100%;
     position: absolute;
     bottom: 0;
   }
