@@ -1,7 +1,10 @@
 :root {
   --white: #fff;
   --gray1: rgba(255, 255, 255, 0.5);
+  --gray2: #929292;
+  --gray3: #e2e2e2;
   --blue1: #30779c;
+  --progress: calc(75 - (75 * 63) / 100);
 }
 
 *,
