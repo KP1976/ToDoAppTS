@@ -1,8 +1,7 @@
 .task {
   border-bottom: 1px solid var(--gray3);
   display: flex;
-  // justify-content: space-between;
-  padding-bottom: 1rem;
+  padding: 1rem 0;
 
   &__icon {
     border: 1px solid var(--gray3);

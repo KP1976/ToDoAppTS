@@ -5,6 +5,9 @@ const TasksList = () => {
   return (
     <ul className="task-list">
       <TaskItem />
+      <TaskItem />
+      <TaskItem />
+      <TaskItem />
     </ul>
   )
 }
