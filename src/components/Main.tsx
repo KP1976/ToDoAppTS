@@ -10,6 +10,7 @@ const Main = () => {
       <h3 className="task-title">zadania</h3>
       <TasksList />
       <TasksDone />
+      <button className="main__add-task-btn">+</button>
     </main>
   )
 }
