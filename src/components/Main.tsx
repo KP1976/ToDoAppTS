@@ -1,6 +1,5 @@
 import React from 'react'
 import '../scss/main.scss'
-import '../scss/tasks-done.scss'
 import TasksList from './TasksList'
 import TasksDone from './TasksDone'
 
@@ -10,7 +9,7 @@ const Main = () => {
       <h3 className="task-title">zadania</h3>
       <TasksList />
       <TasksDone />
-      <button className="main__add-task-btn">+</button>
+      <button className="main__add-task-btn"></button>
     </main>
   )
 }

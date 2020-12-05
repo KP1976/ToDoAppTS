@@ -1,6 +1,5 @@
 import React from 'react'
 import TaskItem from './TaskItem'
-import '../scss/taskList.scss'
 
 const TasksList = () => {
   return (
